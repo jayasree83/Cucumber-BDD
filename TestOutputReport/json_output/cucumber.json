@@ -1,0 +1,225 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5936000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am able to launch the elearning application",
+            "match": {
+              "location": "stepDefinition.stepDefinition.i_am_able_to_launch_the_elearning_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-27T14:36:44.096Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6700000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.stepDefinition.beforetest()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Register successfully",
+        "description": "",
+        "id": "register-the-user;register-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 144000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.stepDefinition.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4630000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on SignUp link",
+            "match": {
+              "location": "stepDefinition.stepDefinition.i_click_on_sign_up_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter the firstname as \"Jaya1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jaya1\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.i_enter_the_firstname_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the lastname as \"Sree1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sree1\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.i_enter_the_lastname_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the email as \"jayasree1.jas@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jayasree1.jas@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.i_enter_the_email_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter the username as \"jaya1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jaya1234\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter the password as \"password1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password1234\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I confirmpassword as \"password1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password1234\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.i_confirmpassword_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2808000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on the Register button",
+            "match": {
+              "location": "stepDefinition.stepDefinition.i_click_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see a confirmation message for registration success",
+            "match": {
+              "location": "stepDefinition.stepDefinition.i_should_see_a_confirmation_message_for_registration_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "Register the user",
+    "description": " I want to use this to signup and register to elearning",
+    "id": "register-the-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Signup.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

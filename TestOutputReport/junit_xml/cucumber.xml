@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.709">
+<testcase classname="Register the user" name="Register successfully" time="21.278">
+<system-out><![CDATA[Given I am able to launch the elearning application.........................passed
+When I click on SignUp link.................................................passed
+And I enter the firstname as "Jaya1"........................................passed
+And I enter the lastname as "Sree1".........................................passed
+And I enter the email as "jayasree1.jas@gmail.com"..........................passed
+And I enter the username as "jaya1234"......................................passed
+And I enter the password as "password1234"..................................passed
+And I confirmpassword as "password1234".....................................passed
+And I click on the Register button..........................................passed
+Then I should see a confirmation message for registration success...........passed
+]]></system-out>
+</testcase>
+</testsuite>
